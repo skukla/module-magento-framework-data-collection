@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Onetree\Framework\Data;
+namespace Skukla\Framework\Data;
 
 use Magento\Framework\Data\Collection\EntityFactoryInterface;
 use Magento\Framework\Option\ArrayInterface;
