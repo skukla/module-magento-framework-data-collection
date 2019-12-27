@@ -1,6 +1,6 @@
 {
-	"name": "skukla/module-framework-data-collection",
-	"description": "Skukla Framework",
+	"name": "skukla/module-magento-framework-data-collection",
+	"description": "Skukla Magento Framework Data Collection",
 	"require": {
 		"php": "7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2|~7.3"
 	},
@@ -11,7 +11,7 @@
 			"registration.php"
 		],
 		"psr-4": {
-			"Skukla\\Framework\\": ""
+			"Skukla\\MagentoFrameworkDataCollection\\": ""
 		}
 	}
 }
