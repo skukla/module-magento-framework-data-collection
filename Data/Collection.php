@@ -28,12 +28,11 @@ class Collection
      */
     public function aroundAddItem(\Magento\Eav\Model\Entity\Collection\AbstractCollection $subject, \Closure $process, \Magento\Framework\DataObject $object)
     {
-        try{
+        try {
             return $process($object);
-        }catch ( \Exception $e){
+        }
+        catch ( \Exception $e){
             return $this;
         }
-
     }
-
 }
